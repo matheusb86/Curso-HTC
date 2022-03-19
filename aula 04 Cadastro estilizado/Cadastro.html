@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="content2">
+            <h1>Faça seu cadastro</h1>
+            <div class="name">
+                <label for="Name">Nome completo</label>
+                <input type="text" id="Name" placeholder="Digite seu nome completo">
+            </div>
+            <div class="bday-country">
+                <div class="birth-day">
+                    <label for="BirthDay">Data de nascimento</label>
+                    <input type="text" id="BirthDay" placeholder="dd/mm/aaaa">
+                </div>
+
+                <div class="coutry">
+                    <label>País</label>
+                    <select required>
+                        <option>Selecionar</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="genre">
+                <label for="Genre">Gênero:</label>
+                <div class="genre-options">
+                    <div class="Genero-Feminino">
+                        <input type="radio" name="Genre" id="Feminino" value="Feminino">
+                        <label for="Feminino">Feminino</label>
+                    </div>
+                    <div class="Genero-Masculino">
+                        <input type="radio" name="Genre" id="Masculino" value="Masculino">
+                        <label for="Masculino">Masculino</label>
+                    </div>
+                    <div class="Genero-nd">
+                        <input type="radio" name="Genre" id="Nao-declarar" value="Nao-declarar">
+                        <label for="Nao-declarar">Não declarar</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="e-mail">
+                <label for="E-mail">E-mail</label>
+                <input type="text" id="E=mail" placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="password">
+                <label for="Senha">Senha</label>
+                <input type="password" id="Senha" placeholder="Crie uma senha">
+            </div>
+
+            <div class="password">
+                <label for="Confirme-senha">Confirme sua senha</label>
+                <input type="password" id="Confirme-senha" placeholder="Confirmar senha">
+            </div>
+
+            <div class="terms">
+                <div class="terms-checkbox">
+                    <input type="checkbox" id="Termos">
+                </div>
+                <div class="terms-label">
+                    <label for="Termos">
+                        Aceito os <a href="#">termos e condições</a> e concordo com as <a href="#">políticas de
+                            privacidade</a>
+                        do Hall to Code
+                    </label>
+                </div>
+            </div>
+
+            <button type="Cadastrar">Cadastrar</button>
+
+            <span>
+                Já tem uma conta no Hall to Code? &nbsp; <a href="Index.html">Entre agora</a>
+            </span>
+
+        </div>
+    </form>
+</body>
+
+</html>
