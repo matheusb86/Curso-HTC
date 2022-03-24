@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  background-color: #f0f0f0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #ff6a28;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #61656d;
+}
+
+.image {
+  margin-top: 14px;
+}
+
+.info-text {
+  color: #61656d;
+}
+
+.info-box-full {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-box {
+  display: flex;
+  width: 118px;
+  height: 85px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.info-box img {
+  margin: 8px;
+}
+
+.info-strong-text {
+  color: #61656d;
+}
+.info-strong-text {
+  color: #ff6a28;
+}
+
+.perfil {
+  display: flex;
+  margin-top: 10px;
+  width: 238px;
+  height: 85px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil img {
+  width: 60px;
+  height: 60px;
+}
+
+.info-perfil {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.info-perfil-text {
+  color: #ff6a28;
+}
+
+.info-ingredient-box {
+  margin-top: 37px;
+  width: 798px;
+  height: 335px;
+  top: 635px;
+  left: 321px;
+  radius: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+
+.ingredients-box{
+  margin-top: 37px;
+}
+
+.title-wrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.icon-title{
+  margin-left: 8px;
+}
+
+.list{
+  list-style-position: inside;
+  margin-top: 12px;
+}
+
+.list-item{
+  margin-bottom: 10px;
+  color: #61656D;
+}
+
+.preparation-box{
+  margin-top: 16px;
+}
+
+.preparation-item{
+  margin-bottom: 20px;
+}
+
+.add-info-box{
+  margin-top: 16px;
+}
+
+.secundary-title{
+  background-color: #F0F0F0;
+  padding: 8px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #61656D;
+  text-align: center;
+}
+
+.add-info-text{
+  margin-top: 16px;
+}
+
+.add-info-text p {
+  color: #61656D;
+  font-size: 14px;
+}
