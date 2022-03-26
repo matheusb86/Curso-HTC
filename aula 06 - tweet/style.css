@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "roboto", sans-serif;
+}
+
+:root {
+  --text: #0f1419;
+  --icons-text: #536471;
+  --icons-text: #dadddf;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-tweet {
+  display: flex;
+  width: 591px;
+  height: 161px;
+  display: flex;
+  border: 1px solid;
+}
+
+.picture-profile {
+  margin-top: 17px;
+  margin-left: 17px;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: var(--icons-text);
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.content {
+  margin-left: 12px;
+}
+
+.post {
+  margin-top: 5px;
+}
+.content p + p {
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  margin-top: 17px;
+}
+
+.fotter {
+  display: flex;
+  justify-content: space-between;
+  color: var(--icons-text);
+  width: 75%;
+}
+
+.arroba,
+.dot {
+  color: var(--icons-text);
+  margin-left: 4px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+.date {
+  color: var(--icons-text);
+  margin-left: 4px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+.Verify {
+  margin-left: 4px;
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+}
+
+.Fotter-icons {
+  width: 15px;
+  height: 13px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+.box {
+  display: flex;
+}
+.box small {
+  font-family: "Roboto";
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
